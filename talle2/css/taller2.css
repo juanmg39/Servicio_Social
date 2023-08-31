@@ -118,6 +118,13 @@ section{
     align-items: center;
     height: 100%;
     }
+    .tallerista button{
+        width: 100px;
+        height: 50px;
+       position: absolute;
+       margin-top:77% ;
+       margin-left: 45%;
+    }
     .tallerista figure{
     position: relative;
     height: 550px;
