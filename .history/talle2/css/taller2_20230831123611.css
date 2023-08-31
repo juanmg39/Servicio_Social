@@ -182,90 +182,13 @@ section{
     .registrate p{
     margin: 30px;
 }
-/* IMPORTARLO ALA PARTE DE REGISTRATE E INTERCAMBIARLO POR EL BOTON  */
-.registrate .btnregistrate{
+.registrate .btn1{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
-a {
-    text-decoration: none;
-    color: inherit;
-  }
-  
-  .btnregistrate {
-    position: relative;
-    margin: auto;
-    padding: 19px 22px;
-    transition: all 0.2s ease;
-  }
-  .btnregistrate:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    border-radius: 28px;
-    background: rgb(155, 255, 138);
-    width: 56px;
-    height: 56px;
-    transition: all 0.3s ease;
-  }
-  .btnregistrate span {
-    position: relative;
-    font-size: 16px;
-    line-height: 18px;
-    font-weight: 900;
-    letter-spacing: 0.25em;
-    text-transform: uppercase;
-    vertical-align: middle;
-  }
-  .btnregistrate svg {
-    position: relative;
-    top: 0;
-    margin-left: 10px;
-    fill: none;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke: #111;
-    stroke-width: 2;
-    transform: translateX(-5px);
-    transition: all 0.3s ease;
-  }
-  .btnregistrate:hover:before {
-    width: 100%;
-    background: #31ff5d;
-  }
-  .btnregistrate:hover svg {
-    transform: translateX(0);
-  }
-  .btnregistrate:active {
-    transform: scale(0.96);
-  }
-/* FIN DE LA PARTE BOTON */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .btn1{
+.btn1{
     margin-top: 25px;
     border: 0;
     background-image: linear-gradient(
@@ -292,7 +215,7 @@ a {
 }
 .btn1:active{
     transform: scale(0.9);
-} */
+}
 
 /* HORARIO DE LAS CLASES */
     table, th, td{
