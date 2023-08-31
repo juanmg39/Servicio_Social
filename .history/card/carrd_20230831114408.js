@@ -18,12 +18,5 @@ const stop = () => {
     clearInterval(intervalo);
 };
 
-original.addEventListener('mouseover',() => (
-    stop()
-));
-original.addEventListener('mouseout',() => (
-    start()
-));
-
 
 start();

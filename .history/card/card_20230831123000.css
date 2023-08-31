@@ -1,9 +1,3 @@
-
-h1{
-    text-align: center;
-    font-size: 4vw;
-}
-
 .original{
     display: flex;
     overflow-x: hidden;
@@ -19,6 +13,10 @@ h1{
     margin: 0 30px;
     text-align: center;
     border: solid #BC4749 .5px;
+    
+
+
+
 }
 .tget img{
     width: 90%;

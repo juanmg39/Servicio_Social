@@ -19,10 +19,10 @@ const stop = () => {
 };
 
 original.addEventListener('mouseover',() => (
-    stop()
+    stop();
 ));
 original.addEventListener('mouseout',() => (
-    start()
+    start();
 ));
 
 
