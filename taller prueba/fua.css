@@ -176,3 +176,39 @@ position: relative;
     border-radius: 50%;
     border: 10px solid #fff;
 }
+/* FOTOOOOS */
+.fotos{
+    width: 90%;
+    height: 70vh;
+    background-color: blueviolet;
+    margin-top: 10%;
+    display: flex;
+}
+.ti{
+    width: 30%;
+    background-color: #08f;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ti h1{
+    font-size: 6vw;
+    margin-left: 15%;
+}
+.waveleft{
+    height: 100%;
+    width: 100%;
+   margin-right: -50%;
+   position: relative;
+}
+.galeria{
+    width: 70%;
+    background-color: #e53935;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.galeria img{
+    margin-left: 10%;
+}
